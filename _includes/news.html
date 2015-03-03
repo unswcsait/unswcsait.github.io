@@ -1,63 +1,27 @@
 <section id="two" class="section swatch-white">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12 text-center">
-                                <header class="text-center  element-normal-top element-medium-bottom condensed os-animation" data-os-animation="fadeIn" data-os-animation-delay="0s">
-                                    <h1 class="bigger hairline bordered bordered-normal">
-                  Recent News
-                </h1>
-                                </header>
-                                <div class=" row element-short-top element-normal-bottom recent-simple-os-container">
-                                    <div class="col-md-3 recent-simple-os-animation animated fadeIn" data-os-animation="fadeIn" data-os-animation-delay="0.1s" style="-webkit-animation: 0.1s;">
-                                        <article class="post-related-post" style="background-image: url(assets/images/uploads/image-08-normal-300x200.jpg)">
-                                            <h4>
-        <a href="blog-post.html">
-            The beauty of the world.
-        </a>
-        <small>
-            by Christos Pantazis        
-        </small>
-    </h4>
-                                        </article>
-                                    </div>
-                                    <div class="col-md-3 recent-simple-os-animation animated fadeIn" data-os-animation="fadeIn" data-os-animation-delay="0.1s" style="-webkit-animation: 0.1s;">
-                                        <article class="post-related-post" style="background-image: url(assets/images/uploads/image-02-normal-300x200.jpg)">
-                                            <h4>
-        <a href="blog-post.html">
-            Colors are the smiles of nature.
-        </a>
-        <small>
-            by Manos Proistakis        
-        </small>
-    </h4>
-                                        </article>
-                                    </div>
-                                    <div class="col-md-3 recent-simple-os-animation animated fadeIn" data-os-animation="fadeIn" data-os-animation-delay="0.1s" style="-webkit-animation: 0.1s;">
-                                        <article class="post-related-post" style="background-image: url(assets/images/uploads/image-03-normal-300x200.jpg)">
-                                            <h4>
-        <a href="blog-post.html">
-            Coffee is a language in itself.
-        </a>
-        <small>
-            by Christos Pantazis        
-        </small>
-    </h4>
-                                        </article>
-                                    </div>
-                                    <div class="col-md-3 recent-simple-os-animation animated fadeIn" data-os-animation="fadeIn" data-os-animation-delay="0.1s" style="-webkit-animation: 0.1s;">
-                                        <article class="post-related-post" style="background-image: url(assets/images/uploads/image-09-normal-300x200.jpg)">
-                                            <h4>
-        <a href="blog-post.html">
-            Do Lipton employees take coffee breaks?
-        </a>
-        <small>
-            by Christos Pantazis        
-        </small>
-    </h4>
-                                        </article>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<header class="text-center  element-normal-top element-medium-bottom condensed os-animation" data-os-animation="fadeIn" data-os-animation-delay="0s">
+					<h1 class="bigger hairline bordered bordered-normal">
+						最新活动
+					</h1>
+				</header>
+				<div class=" row element-short-top element-normal-bottom recent-simple-os-container">
+					{% for post in site.posts limit: 4 %}
+					<div class="col-md-3 recent-simple-os-animation animated fadeIn" data-os-animation="fadeIn" data-os-animation-delay="0.1s" style="-webkit-animation: 0.1s;">
+						<article class="post-related-post" style="background-image: url({{ site.url }}/assets/images/{{ post.image.Thumbnail }})">
+							<h4>
+								<a href="{{ site.url }}{{ post.url }}">
+									{{ post.title }}
+								</a>
+								        
+							</h4>
+						</article>
+					</div>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

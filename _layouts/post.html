@@ -5,7 +5,17 @@
 	<body class="normal-header">
 		{% include header.html %}
 	        <div id="content">
-	            {{ content }}
+				
+				<article>
+					{{ content }}
+					
+					{% include contact.html %}
+					
+					{% include footer.html %}
+				</article>
+	            
+				
+				
 	        </div>
 
 		<script src="assets/js/packages.min.js"></script>
