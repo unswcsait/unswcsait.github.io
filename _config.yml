@@ -1,10 +1,12 @@
 # Dependencies
 markdown: kramdown
 highlighter: pygments
-
+url: 
 # Permalinks
 permalink: pretty
 relative_permalinks: true
 
 # Title
 title: UNSWCSA
+
+BASE_PATH: 
