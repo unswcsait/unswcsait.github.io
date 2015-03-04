@@ -4,6 +4,7 @@ title: "2015 Semester 1 Welcome BBQ"
 date: "March 7, 2015"
 description: "无论你是才经历了国内的隆冬，或是刚熬过了澳洲的酷暑，无论你是对新学期略感惶恐，或是对新挑战满志踌躇，趁着这阳光灿烂，趁着这青春朝暮，快来参加我们的迎新烧烤趴吧！这里有芬芳的草地花团锦簇，这里有海浪和沙滩柔软舒服，这里有美食与佳肴琳琅满目，这里有帅哥跟美女数不胜数，精彩的活动让人弯腰捧腹，欢声和笑语让人忘却忧苦。如果你不吝一次亲身参与、赏光移步，我们将还你欢乐无限、眼笑眉舒！"
 image:
+  Small: 2015welcomebbq-150x150.jpg
   Thumbnail:  2015welcomebbq-300x200.jpg
   Cover: 2015welcomebbq-800x600.jpg
   feature: 2015welcomebbq-normal.jpg

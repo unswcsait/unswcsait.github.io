@@ -4,6 +4,7 @@ title: "Because Of You 因为有你"
 date: "August 29, 2014"
 description: "由UNSWCSA倾情推出，年度巨献大型纯恋交友活动“缘定今生，因为有你”即将到来，为大家提供一个相互认识、促进交流的平台，穿针引线，牵连佳缘，让我们的充实大学生活更加丰富多彩，充满期待。现在，男女嘉宾正在火热报名中。一份简短的表格，一次小小的勇敢，就有绝佳的机会找到期盼已久的另一半，生活将被欢欣充满，生命也将不再孤单。"
 image:
+  Small: Because-Of-You-150x150.jpg
   Thumbnail:  Because-Of-You-300x200.jpg
   Cover: Because-Of-You-800x600.jpg
   feature: Because-Of-You-Normal.jpg
@@ -39,3 +40,55 @@ Viener 0424171146 vienerhe@gmail.com
 
 携手一起，相伴珍惜。
 缘定今生，因为有你！
+
+<img src="/assets/images/2014BOY/1.jpg" alt="">
+
+<img src="/assets/images/2014BOY/2.jpg" alt="">
+
+<img src="/assets/images/2014BOY/3.jpg" alt="">
+
+<img src="/assets/images/2014BOY/4.jpg" alt="">
+
+<img src="/assets/images/2014BOY/5.jpg" alt="">
+
+<img src="/assets/images/2014BOY/6.jpg" alt="">
+
+<img src="/assets/images/2014BOY/7.jpg" alt="">
+
+<img src="/assets/images/2014BOY/8.jpg" alt="">
+
+<img src="/assets/images/2014BOY/9.jpg" alt="">
+
+<img src="/assets/images/2014BOY/10.jpg" alt="">
+
+<img src="/assets/images/2014BOY/11.jpg" alt="">
+
+<img src="/assets/images/2014BOY/12.jpg" alt="">
+
+<img src="/assets/images/2014BOY/13.jpg" alt="">
+
+<img src="/assets/images/2014BOY/14.jpg" alt="">
+
+<img src="/assets/images/2014BOY/15.jpg" alt="">
+
+<img src="/assets/images/2014BOY/16.jpg" alt="">
+
+<img src="/assets/images/2014BOY/17.jpg" alt="">
+
+<img src="/assets/images/2014BOY/18.jpg" alt="">
+
+<img src="/assets/images/2014BOY/19.jpg" alt="">
+
+<img src="/assets/images/2014BOY/20.jpg" alt="">
+
+<img src="/assets/images/2014BOY/21.jpg" alt="">
+
+<img src="/assets/images/2014BOY/22.jpg" alt="">
+
+<img src="/assets/images/2014BOY/23.jpg" alt="">
+
+<img src="/assets/images/2014BOY/24.jpg" alt="">
+
+
+
+
