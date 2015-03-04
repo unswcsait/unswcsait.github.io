@@ -1,7 +1,7 @@
 # Dependencies
 markdown: kramdown
 highlighter: pygments
-url: http://unswcsait.github.io
+url: www.unswcsa.com
 
 # Permalinks
 permalink: pretty

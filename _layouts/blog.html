@@ -16,7 +16,7 @@
 									<div class="post-media">
 										<div class="figure  element-no-top element-normal-bottom image-filter-none image-filter-onhover fade-in text-center figcaption-middle normalwidth" data-os-animation="none" data-os-animation-delay="0s">
 											<a class="figure-image" href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
-												<img src="{{ site.url }}/assets/images/{{ post.image.feature }}" alt="{{ post.title }}">
+												<img src="/assets/images/{{ post.image.feature }}" alt="{{ post.title }}">
 												<div class="figure-overlay grid-overlay-0">
 													<div class="figure-overlay-container">
 														<span class="figure-icon">
@@ -37,7 +37,7 @@
 									</div>
 									<header class="post-head">
 										<h2 class="post-title">
-											<a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
+											<a href="{{ post.url }}" title="{{ post.title }}">
 												{{ post.title }}
 											</a>
 										</h2>
@@ -53,7 +53,7 @@
 										<p>
 											{{ post.description }}
 										</p>
-										<a class="post-more-link btn btn-primary" href="{{ site.url }}{{ post.url }}">
+										<a class="post-more-link btn btn-primary" href="{{ post.url }}">
 											read more
 										</a>
 									</div>
@@ -65,9 +65,9 @@
 									<ul class="post-navigation pagination">
 									    {% if paginator.previous_page %}
 									      {% if paginator.previous_page == 1 %}
-									        <li><a href="{{ site.url }}"><</a></li>
+									        <li><a href="/"><</a></li>
 									      {% else %}
-									        <li><a href="{{ site.url }}/page{{ paginator.previous_page }}" class="btn"><</a></li>
+									        <li><a href="/page{{ paginator.previous_page }}" class="btn"><</a></li>
 									      {% endif %}
 									    {% else %}
 									      <li class="disabled"><a><</a></li>
@@ -76,19 +76,19 @@
 								        {% if paginator.page == 1 %}
 								          <li class="active"><span class="current-page">1</span></li>
 								        {% else %}
-								          <li><a href="{{ site.url }}">1</a></li>
+								          <li><a href="/">1</a></li>
 								        {% endif %}
 										
 								      	{% for count in (2..paginator.total_pages) %}
 								        	{% if count == paginator.page %}
 								            	<li class="active"><span class="current-page">{{ count }}</span></li>
 								          	{% else %}
-								            	<li><a href="{{ site.url }}/page{{ count }}">{{ count }}</a></li>
+								            	<li><a href="/page{{ count }}">{{ count }}</a></li>
 								          	{% endif %}
 										{% endfor %}
 									    
 									    {% if paginator.next_page %}
-									      <li><a href="{{ site.url }}/page{{ paginator.next_page }}">></a></li>
+									      <li><a href="/page{{ paginator.next_page }}">></a></li>
 									    {% else %}
 									      <li class="disabled"><a>></a></li>
 									    {% endif %}
@@ -109,7 +109,7 @@
 	
 	
 
-	<script src="{{ site.base_url }}/assets/js/packages.min.js"></script>
-	<script src="{{ site.base_url }}/assets/js/theme.min.js"></script>
+	<script src="/assets/js/packages.min.js"></script>
+	<script src="/assets/js/theme.min.js"></script>
 </body>
 </html>

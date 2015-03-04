@@ -10,9 +10,9 @@
 				<div class=" row element-short-top element-normal-bottom recent-simple-os-container">
 					{% for post in site.posts limit: 4 %}
 					<div class="col-md-3 recent-simple-os-animation animated fadeIn" data-os-animation="fadeIn" data-os-animation-delay="0.1s" style="-webkit-animation: 0.1s;">
-						<article class="post-related-post" style="background-image: url({{ site.url }}/assets/images/{{ post.image.Thumbnail }})">
+						<article class="post-related-post" style="background-image: url(/assets/images/{{ post.image.Thumbnail }})">
 							<h4>
-								<a href="{{ site.url }}{{ post.url }}">
+								<a href="{{ post.url }}">
 									{{ post.title }}
 								</a>
 								        
